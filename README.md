@@ -1,6 +1,6 @@
-# single-cycle-processor
+# multi-cycle-processor
 EEE 333 Lab 5
-A single-cycle processor built in SystemVerilog. Fetches an instruction, decodes it, runs it through the ALU, and writes the result back to the register file in four states (IF, FD, EX, RWB).
+A multi-cycle processor built in SystemVerilog. Fetches an instruction, decodes it, runs it through the ALU, and writes the result back to the register file in four states (IF, FD, EX, RWB).
 
 ## What's in it
 - Register File - 16 8-bit registers, two read ports, and one write port.
