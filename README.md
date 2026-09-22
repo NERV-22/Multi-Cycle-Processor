@@ -4,7 +4,7 @@ A multi-cycle processor built in SystemVerilog. Fetches an instruction, decodes 
 
 ## What's in it
 - Register File - 16 8-bit registers, two read ports, and one write port.
-- ALU - 8-bit, has functions of add, subtract, AND, OR, XOR, shift, and pass-through.
+- ALU - 8-bit, has functions of add, sub, MUL, DIV, DEC, INC, NOR, NAND, XOR, and COMP
 - Mux16to1 - built hierarchically from four Mux4to1s, used for register select.
 - Controller - 2-bit state machine cycling IF → FD → EX → RWB.
 - DReg - parameterized D flip-flop register used throughout.
